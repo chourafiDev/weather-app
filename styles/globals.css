@@ -1,0 +1,142 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 100wh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #6c6acf;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.font-w6 {
+  font-weight: 600;
+}
+.font-w5 {
+  font-weight: 500;
+}
+
+.text-xl {
+  font-size: 1.5rem;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+}
+
+.serach_card {
+  background-color: #9895dab0;
+  backdrop-filter: blur(5px);
+  padding: 20px;
+  border-radius: 10px;
+  width: 70rem;
+  margin: 2rem 0;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px;
+}
+
+.search_wrapper {
+  display: flex;
+  background-color: #9996db;
+  border-radius: 10px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.input {
+  border: 1px solid #a8dadc;
+  outline: none;
+  padding: 15px;
+  border-radius: 6px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.btn {
+  background-color: #7866df;
+  padding: 10px 30px;
+  border-radius: 6px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.weatehr-card {
+  background-image: url("../public//images//weather.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.weatehr-card-top {
+  padding: 0rem 4rem;
+}
+
+.weather-type {
+  font-size: 1.7rem;
+}
+
+.weather-temp {
+  font-size: 7rem;
+}
+
+.weatehr-card-bottom {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #9895da6b;
+  backdrop-filter: blur(5px);
+  padding: 0.6rem 2rem;
+  border-radius: 10px;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
